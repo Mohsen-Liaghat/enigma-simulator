@@ -92,7 +92,5 @@ except :
             break
         cipher = my_machine.code(text)
         print(cipher)
-        my_machine.reload()
-        #print(my_machine.code(cipher))
         print()
         my_machine.reload()
